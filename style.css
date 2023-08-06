@@ -1,0 +1,148 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    background-color: #1E202B;
+}
+.nav-item .nav-link{
+    color: #FFFFFF;
+    margin: 0 15px;
+    font-size: 14px;
+    padding: 3px 30px;
+    transition: all 0.5s;
+}
+nav span i{
+    color: #4E9BD9;
+}
+.brand{
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.nav-item .nav-link:hover{
+    border: 3px solid #4E9BD9;
+    border-radius: 30px;
+    color: #4E9BD9;
+}
+.active{
+    border: 3px solid #4E9BD9;
+    border-radius: 30px;
+    color: #4E9BD9;
+
+}
+.navbar-collapse{
+    text-align: center;
+}
+.menu{
+    font-size: 30px;
+}
+.header{
+    min-height: 350px;
+    background-image: url('img/banner.png');
+    background-size: cover;
+}
+.form-control {
+    height: 60px;
+    border-radius: 30px;
+    background-color: #1E202B;
+    border: none;
+    
+   
+}
+.form-control::placeholder{
+    color: #757575;
+}
+.form-control:focus{
+    border: none;
+    outline: none;
+    background-color: #1E202B;
+    box-shadow: none;
+
+}
+.input-group-append {
+    background-color: #1E202B;
+    border-radius: 30px;
+    border: none;
+    padding: 5px 5px;
+}
+.input-group-append button {
+    padding: 12px 30px;
+    border-radius: 30px;
+    background-color: #4E9BD9;
+}
+.input-group-append button:hover{
+    background-color: #4E9BD9;
+    border: none;
+}
+.head{
+    min-height: 250px;
+    background-color: #1E202B;
+}
+.card{
+    border: none;
+}
+.card-header{
+    background-color: #2D303D;
+    color: rgb(191, 193, 200);
+}
+
+.card-body{
+    background-color: #323544;
+    color: rgb(191, 193, 200);
+}
+
+.current{
+    font-size: 90px;
+    color: #FFFFFF;
+    font-weight: 900;
+}
+#condition{
+    color: #4E9BD9;
+}
+
+.card i {
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+
+
+
+
+footer{
+    background-color: #262936;
+}
+footer span{
+width: 50px;
+height: 50px;
+display: inline-block;
+border-radius: 50%;
+background-color: #1E202B;
+position: relative;
+
+}
+footer i {
+    font-size: 50px;
+    color: #4E9BD9;
+    position: absolute;
+
+
+}
+footer span:hover{
+background-color: #4E9BD9;
+transition: all 0.5s;
+}
+footer span:hover i{
+    color: #FFFFFF;
+    transition: all 0.5s;
+}
+footer p{
+    font-family: 'Roboto', sans-serif;
+    color:  rgb(191, 193, 200);
+    font-size: 14px;
+    font-weight: 300;
+}
+.btn:focus {
+box-shadow: none;
+}
